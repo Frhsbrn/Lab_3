@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobbies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Hobbies</h1>
+        <nav>
+            <a href="index.html">Biodata</a> |
+            <a href="hobbies.html">Hobbies</a> |
+            <a href="campuslife.html">Campus Life</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hobbies-content">
+            <p>Describe your hobbies here...</p>
+            <div class="hobbies-list">
+                <button class="hobby-item" onclick="window.location='#music'">Music</button>
+                <button class="hobby-item" onclick="window.location='#travelling'">Travelling</button>
+                <button class="hobby-item" onclick="window.location='#singing'">Singing</button>
+            </div>
+
+            <!-- Hobby Descriptions -->
+            <div id="music" class="hobby-description">
+                <h2>Music Lover</h2>
+                <p>Music lovers find joy and connection in melodies and rhythms. They explore various genres, 
+                    follow their favorite artists, attend concerts, and share playlists with friends. 
+                    For them, music is a way to express emotions and escape from the routine.</p>
+            </div>
+            
+            <div id="travelling" class="hobby-description">
+                <h2>Adventurous Traveller</h2>
+                <p>Travelling enthusiasts are always on the lookout for new destinations, experiences, and cultures.
+                They enjoy exploring nature, visiting historic landmarks, tasting local cuisines, 
+                and immersing themselves in diverse traditions. Every trip is an opportunity to learn and grow.</p>
+            </div>
+
+            <div id="singing" class="hobby-description">
+                <h2>Passionate Singer</h2>
+                <p>Singing is more than just a hobby for a passionate singer. Its a way to express feelings, 
+                    bring joy to others, and enhance creativity. Whether singing alone, performing on stage, 
+                    or harmonizing with others, they find immense satisfaction in sharing their voice.</p>
+                <audio controls>
+                    <source src="sing.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
